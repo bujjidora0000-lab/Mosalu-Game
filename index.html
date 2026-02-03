@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mosalu - 3D Rabbit Adventure</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="loading-screen">
+<div id="splash-screen">
+    <div class="logo-container">
         <h1 class="game-title">MOSALU</h1>
-        <div id="progress-container">
-            <div id="progress-bar"></div>
+        <div class="loader-bar">
+            <div id="progress"></div>
         </div>
-        <p id="loading-text">Loading Carrot World...</p>
+        <p id="loading-text">Loading Assets... 0%</p>
     </div>
-
-    <div id="game-ui" style="display: none;">
-        <div class="stat-box">Score: <span id="score">0</span></div>
-        <div class="stat-box gold-carrot">Life: 🥕 x <span id="life">3</span></div>
-        <div class="stat-box">Level: <span id="level">1</span></div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+</div>
